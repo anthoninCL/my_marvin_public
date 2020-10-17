@@ -1,0 +1,13 @@
+jenkins:
+    systemMessage: "Jenkins configured using CasC."
+    numExecutors: 0
+    mode: NORMAL
+    securityRealm:
+      local:
+        allowsSignup: false
+        users:
+         - id: admin
+           password: pomme
+         - id: newuser
+           password: poire
+  
