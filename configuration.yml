@@ -3,11 +3,11 @@ jenkins:
     numExecutors: 0
     mode: NORMAL
     securityRealm:
-      local:
-        allowsSignup: false
-        users:
-          - id: admin
-            password: azerty
-          - id: newuser
-            password: pomme
+        local:
+            allowsSignup: false
+            users:
+                - id: admin
+                password: azerty
+                - id: newuser
+                password: pomme
     
